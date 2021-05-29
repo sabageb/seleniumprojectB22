@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="78" started-at="2021-05-28T21:12:03 PDT" finished-at="2021-05-28T21:12:03 PDT">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="78" started-at="2021-05-28T21:12:03 PDT" finished-at="2021-05-28T21:12:03 PDT">
+      <class name="com.cybertek.tests.day6_testNg_intro_dropdowns.TestNG_Intro">
+        <test-method status="PASS" signature="setupClASS()[pri:0, instance:com.cybertek.tests.day6_testNg_intro_dropdowns.TestNG_Intro@3c0ecd4b]" name="setupClASS" is-config="true" duration-ms="0" started-at="2021-05-28T21:12:03 PDT" finished-at="2021-05-28T21:12:03 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClASS -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.cybertek.tests.day6_testNg_intro_dropdowns.TestNG_Intro@3c0ecd4b]" name="test1" duration-ms="15" started-at="2021-05-28T21:12:03 PDT" finished-at="2021-05-28T21:12:03 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="setupMethod()[pri:0, instance:com.cybertek.tests.day6_testNg_intro_dropdowns.TestNG_Intro@3c0ecd4b]" name="setupMethod" is-config="true" duration-ms="0" started-at="2021-05-28T21:12:03 PDT" finished-at="2021-05-28T21:12:03 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="setupMethod()[pri:0, instance:com.cybertek.tests.day6_testNg_intro_dropdowns.TestNG_Intro@3c0ecd4b]" name="setupMethod" is-config="true" duration-ms="16" started-at="2021-05-28T21:12:03 PDT" finished-at="2021-05-28T21:12:03 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="teardownMethod()[pri:0, instance:com.cybertek.tests.day6_testNg_intro_dropdowns.TestNG_Intro@3c0ecd4b]" name="teardownMethod" is-config="true" duration-ms="0" started-at="2021-05-28T21:12:03 PDT" finished-at="2021-05-28T21:12:03 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+        <test-method status="PASS" signature="teardownMethod()[pri:0, instance:com.cybertek.tests.day6_testNg_intro_dropdowns.TestNG_Intro@3c0ecd4b]" name="teardownMethod" is-config="true" duration-ms="0" started-at="2021-05-28T21:12:03 PDT" finished-at="2021-05-28T21:12:03 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.cybertek.tests.day6_testNg_intro_dropdowns.TestNG_Intro@3c0ecd4b]" name="teardown" is-config="true" duration-ms="0" started-at="2021-05-28T21:12:03 PDT" finished-at="2021-05-28T21:12:03 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="test2()[pri:2, instance:com.cybertek.tests.day6_testNg_intro_dropdowns.TestNG_Intro@3c0ecd4b]" name="test2" duration-ms="0" started-at="2021-05-28T21:12:03 PDT" finished-at="2021-05-28T21:12:03 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- com.cybertek.tests.day6_testNg_intro_dropdowns.TestNG_Intro -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
