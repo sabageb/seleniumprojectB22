@@ -67,7 +67,6 @@ public void teardownClass() throws InterruptedException {
 
 
 
-
 @Test
 
     public void tc2_state_dropdown_test() throws InterruptedException {
@@ -75,7 +74,7 @@ public void teardownClass() throws InterruptedException {
     Select stateDropdown = new Select(driver.findElement(By.xpath("//select[@id='state']")));
 
 //3.Select Illinois
-Thread.sleep(2000);
+    Thread.sleep(2000);
     stateDropdown.selectByVisibleText("Illinois");
 
 
@@ -90,14 +89,27 @@ Thread.sleep(2000);
 
     // 6.Verify final selected option is California.
     //Use all Select options.(visible text, value, index)
-
-    String expectedOptionText =stateDropdown.getFirstSelectedOption().getText();
+    String expectedOptionText = "california";
     String actualOptionText = stateDropdown.getFirstSelectedOption().getText();
 
-    Assert.assertEquals(actualOptionText,expectedOptionText);
-    Assert.assertTrue(stateDropdown.getFirstSelectedOption().getText().equals("California"));
+    //doing it this way is not mandatory but useful functionality when assertion fails
+     Assert.assertEquals(actualOptionText,expectedOptionText,"this message will be printed out only if assertion fails");
+
+    //Assert.assertEquals(actualOptionText, expectedOptionText);
+   // Assert.assertTrue(stateDropdown.getFirstSelectedOption().getText().equals("California"));
+
+    //line 100 to 104 : my way of actual Vs expected
+    // String expectedOptionText =stateDropdown.getFirstSelectedOption().getText();
+    // String actualOptionText = stateDropdown.getFirstSelectedOption().getText();
+    //  Assert.assertTrue(stateDropdown.getFirstSelectedOption().getText().equals("California"));
 
 }
+
+
     }
+
+
+
+
 
 
