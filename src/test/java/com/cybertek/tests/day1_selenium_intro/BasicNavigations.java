@@ -18,6 +18,8 @@ public class BasicNavigations {
         // will work for mac only
        // driver.manage().window().fullscreen();
 
+
+
         //3- get the page for tesla.com
         driver.get("https://www.tesla.com/");
 
