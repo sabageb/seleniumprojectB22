@@ -105,7 +105,34 @@ public void teardownClass() throws InterruptedException {
 
 }
 
+@Test
+    public void tc5_none_select_dropdown() throws InterruptedException {
+    // we need to locate the none-select dropdown as regular web element
+    WebElement websiteDropdown = driver.findElement(By.xpath(""));
 
+    //3. Click to non-select dropdown
+    Thread.sleep(1000);
+    websiteDropdown.click();
+
+    //4. Select Facebook from dropdown
+    Thread.sleep(1000);
+
+//Locate facebook from non-selected dropdown
+    WebElement facebookLink = driver.findElement(By.xpath(""));
+
+    //Click to facebook link to go to page
+    facebookLink.click();
+
+    //5.Verify title is "Facebook - Log In or Sign Up"
+    String expectedTitle = "Facebook-Log In or Sign Up";
+    String actualTitle = driver.getTitle();
+
+    Assert.assertEquals(actualTitle, expectedTitle, "Title is not as expected");
+
+
+
+
+}
     }
 
 
