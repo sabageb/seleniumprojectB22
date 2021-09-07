@@ -1,4 +1,5 @@
-package com.cybertek.OfficeHours;
+
+package com.cybertek.OfficeHours.OH_day01;
 
 import com.cybertek.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
@@ -14,18 +15,19 @@ public class MoneyGamingTask {
     @Test
     public void Task1(){
 // real job interview
-        /*1. Navigate to: https://moneygaming.qa.gameaccount.com/
-        //2. Click the join Now button to open the registeration page
+        //1. Navigate to: https://moneygaming.qa.gameaccount.com/
+        //2. Click the join Now button to open the registration page
         //3. Select  a title value from the drop dawn
         //4. Enter your first name and surname in the form
         //5. Check the tickbox with text ' I accept the Terms and condition and certify that I am over the age
         //6.submit the form by clicking the JOIN NOW button
-        7. validate that a validation message with test 'This  field is required 'appears under the date of birth box
-        */
+       // 7. validate that a validation message with test 'This  field is required 'appears under the date of birth box
+
+
         //Open browser
         WebDriver driver = WebDriverFactory.getDriver("chrome");
         driver.manage().window().maximize();
-        driver.get("https://moneygaming.qa.gameaccount.com/");
+        driver.get("https://moneygaming.qa.gameaccount.com");
 //let`s handle time delays
         //driver.manage().timeouts().implicitlyWait(10, timeUnit.SECONDS);
         WebElement joinButton = driver.findElement(By.xpath("newUser green"));
